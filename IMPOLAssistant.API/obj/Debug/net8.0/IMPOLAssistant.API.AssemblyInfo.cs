@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IMPOLAssistant.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28fc3a1bac832ab298a679fae6ff2411d34fb6b8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3097ab9bbef376d44aeab6946fd1d796de545d08")]
 [assembly: System.Reflection.AssemblyProductAttribute("IMPOLAssistant.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IMPOLAssistant.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

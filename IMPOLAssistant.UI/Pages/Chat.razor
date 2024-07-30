@@ -1,0 +1,53 @@
+﻿@page "/chat"
+
+@using MudBlazor
+
+<MudContainer>
+    <MudPaper>
+        <MudText Typo="Typo.h5">IMPOL Asistent Chat</MudText>
+    </MudPaper>
+
+    <MudPaper Class="chat-history" Style="overflow-y:auto;">
+        @foreach (var message in messages)
+        {
+            <MudText Typo="Typo.body1">@message</MudText>
+        }
+    </MudPaper>
+
+    <MudContainer Class="chat-input">
+        <MudTextField @bind-Value="@userInput" Placeholder="Unesite svoju poruku ovde..." FullWidth="true" />
+        <MudButton OnClick="SendMessage" Color="Color.Primary">Pošalji</MudButton>
+    </MudContainer>
+</MudContainer>
+
+@code {
+    private string userInput;
+    private List<string> messages = new List<string>
+    {
+        "Zdravo! Kako mogu da vam pomognem danas?"
+    };
+
+    private void SendMessage()
+    {
+        if (!string.IsNullOrEmpty(userInput))
+        {
+            messages.Add(userInput);
+            messages.Add("Eho: " + userInput);
+            userInput = string.Empty;
+        }
+    }
+
+}
+<style>
+    .chat-history {
+        height: 500px;
+        padding: 16px;
+        background-color: #f9f9f9;
+    }
+
+    .chat-input {
+        display: flex;
+        align-items: center;
+        padding: 8px;
+    }
+</style>
