@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
+      "Id": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.UI\\wwwroot\\images\\impol-seval.jpg",
+      "PackagePath": "staticwebassets\\images\\impol-seval.jpg"
+    },
+    {
       "Id": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.UI\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

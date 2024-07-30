@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ITSBgUHfutDb9pVb9kZJ6bqXlWmIp80A+pLxEPjR1VQ=",
+  "Hash": "SPFDeO7NEaCGNlgPsXRR31Sapi1TG6gsWDUuBao7JvU=",
   "Source": "IMPOLAssistant.UI",
   "BasePath": "/",
   "Mode": "Root",
@@ -8052,6 +8052,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icon-192.png"
+    },
+    {
+      "Identity": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.UI\\wwwroot\\images\\impol-seval.jpg",
+      "SourceId": "IMPOLAssistant.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.UI\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/impol-seval.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\impol-seval.jpg"
     },
     {
       "Identity": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.UI\\wwwroot\\index.html",

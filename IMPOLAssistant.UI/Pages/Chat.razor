@@ -4,7 +4,10 @@
 
 <MudContainer>
     <MudPaper>
+         <div class="flex-container">
         <MudText Typo="Typo.h5">IMPOL Asistent Chat</MudText>
+            <img src="images/impol-seval.jpg" alt="Description of the image" class="side-image" />
+        </div>
     </MudPaper>
 
     <MudPaper Class="chat-history" Style="overflow-y:auto;">
@@ -96,4 +99,15 @@
             outline: none;
             box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
         }
+
+    .flex-container {
+        display: flex;
+        align-items: center; 
+    }
+
+    .side-image {
+        margin-left: 10px; 
+        max-width: 100px;
+        height:auto;
+    }
 </style>
