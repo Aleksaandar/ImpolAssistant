@@ -30,7 +30,11 @@
 
     </script>
     <script>
-   
+        window.scrollPageToBottom = function () {
+            setTimeout(function () {
+                window.scrollTo(0, document.body.scrollHeight);
+            }, 100); // Adjust the timeout duration as needed
+        }
     </script>
 </body>
 

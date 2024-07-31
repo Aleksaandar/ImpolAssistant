@@ -53,7 +53,8 @@
             {
                 messages.Add(message);
 
-           
+            }
+            await JS.InvokeVoidAsync("scrollPageToBottom");
             userInput = string.Empty;
          
         }
