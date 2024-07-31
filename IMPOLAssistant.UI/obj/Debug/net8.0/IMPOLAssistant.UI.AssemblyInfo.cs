@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IMPOLAssistant.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f895ef0f1003b1feb87c2e9ff9f12b2a8f7f2c43")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67911ae6ebb51c6512adfa8e52151a72682d014c")]
 [assembly: System.Reflection.AssemblyProductAttribute("IMPOLAssistant.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IMPOLAssistant.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

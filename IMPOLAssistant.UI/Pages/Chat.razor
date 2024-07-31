@@ -1,20 +1,28 @@
 ﻿@page "/chat"
 
 @using MudBlazor
-
-<MudContainer>
+@inject IJSRuntime JS
+<MudContainer >
     <MudPaper>
          <div class="flex-container">
         <MudText Typo="Typo.h5">IMPOL Asistent Chat</MudText>
             <img src="images/impol-seval.jpg" alt="Description of the image" class="side-image" />
-        </div>
-    </MudPaper>
 
-    <MudPaper Class="chat-history" Style="overflow-y:auto;">
+        </div>
+        <h5>Zdravo! Kako mogu da vam pomognem danas?</h5>
+       
+    </MudPaper>
+   
+    <MudPaper Class="chat-history" id="chatHistory">
+
+        <div class="message-container" >
         @foreach (var message in messages)
         {
+                <div class="message-box">
             <MudText Typo="Typo.body1">@message</MudText>
+                </div>
         }
+        </div>
     </MudPaper>
 
     <MudContainer Class="chat-input">
@@ -27,29 +35,59 @@
     private string userInput;
     private List<string> messages = new List<string>
     {
-        "Zdravo! Kako mogu da vam pomognem danas?"
+        
     };
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JS.InvokeVoidAsync("scrollToBottom", "chatHistory");
+        }
+    }
 
-    private void SendMessage()
+    private async void SendMessage()
     {
         if (!string.IsNullOrEmpty(userInput))
         {
             messages.Add(userInput);
             messages.Add("Eho: " + userInput);
             userInput = string.Empty;
+            try
+            {
+
+                await JS.InvokeVoidAsync("scrollToBottom", "chatHistory");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in SendMessage: {ex.Message}");
+            }
         }
     }
+  
 
 }
 <style>
     .chat-history {
-        height: 500px;
+        height:100%;
+       
         padding: 16px;
         background-color: #f9f9f9;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow-y: auto;
+        margin-bottom: 150px;
+    }
+    h5{
+        margin-top:0.5rem;
     }
 
     .chat-input {
-     
+        position: fixed;
+        bottom: 0rem;
+        left: 37%;
+        right: 0;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -57,9 +95,27 @@
         background-color: #f0f0f0;
         border-radius: 24px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        max-width: 600px;
-     margin:auto;
-        margin-top:8rem;
+        max-width: 40%;
+        margin-top:4rem;
+        
+    }
+
+    .message-container {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+           
+    }
+
+    .message {
+        margin: 8px 0;
+        background-color: #e0e0e0;
+        padding: 8px 16px;
+        border-radius: 12px;
+        max-width: 80%;
+        text-align: center;
     }
 
     .custom-input {
@@ -69,7 +125,7 @@
         border: none;
         padding: 12px;
         border-radius: 24px;
-        background-color: #ffffff;
+       height:100px;
         box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
     }
 
@@ -78,6 +134,7 @@
             outline: none !important;
             box-shadow: none !important;
             padding: 0 !important;
+            width:500px;
             background-color: transparent !important;
         }
 
@@ -110,4 +167,20 @@
         max-width: 100px;
         height:auto;
     }
+
+    .message-box {
+        background-color: #ffffff;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        padding: 12px;
+        margin: 8px 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        max-width: 80%;
+        word-wrap: break-word;
+       
+    }
+
+        .message-box .mud-text {
+            margin: 0;
+        }
 </style>

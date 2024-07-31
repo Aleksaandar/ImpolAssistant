@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "IMPOLAssistant.UI",
   "resources": {
-    "hash": "sha256-3xfXE0gVDvOyZyOljJxYA+A4No+easop7O9ukyO79y4=",
+    "hash": "sha256-5F4b8GtSKWMTAZs+pmAqXb2ibmLGekbTdR1ZMaq8PiY=",
     "jsModuleNative": {
       "dotnet.native.8.0.7.vzivgovsdl.js": "sha256-tFsxPBbhkdn6GKNBKvCRLzrfAHdyM86odYTe0MtrwMk="
     },
@@ -211,10 +211,10 @@
       "mscorlib.wasm": "sha256-fLbZiSHBNdpHoh4EgRqMaNP5NQyIK5TEj6AXFLqo8m8=",
       "netstandard.wasm": "sha256-d4xbAE8qrKq5euUoZHPO+jkYPjlCYBzUew45MKsYKic=",
       "System.Private.CoreLib.wasm": "sha256-8yi6NcX1lkNQgV4WKjnMBYIZyKh4P+OXnXVQmgxGZD4=",
-      "IMPOLAssistant.UI.wasm": "sha256-hbBlizzg5MnSKeElmK3G53d5wldCq3l0FnHIQw1KWjo="
+      "IMPOLAssistant.UI.wasm": "sha256-egykLAG2eSvs9/0fSo/IXE975I1XxECrrP8j4Bcrt74="
     },
     "pdb": {
-      "IMPOLAssistant.UI.pdb": "sha256-TJ8t+4vPbAzYqDdDsv3plH5SFXvvR4gDFKCIiza/vtA="
+      "IMPOLAssistant.UI.pdb": "sha256-5XQg/0M8XcmUJw/YmcD4V2fnv3p2UaIvo0E9Stg2Xo4="
     }
   },
   "cacheBootResources": true,
