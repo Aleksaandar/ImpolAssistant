@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMPOLAssistant.API", "IMPOL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMPOLAssistant.UI", "IMPOLAssistant.UI\IMPOLAssistant.UI.csproj", "{94DF62D8-8ECC-4555-BF21-EFB24A45B2CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMPOLAssistant.Shared", "IMPOLAssistant.Shared\IMPOLAssistant.Shared.csproj", "{6354D655-4179-419B-8F85-0B8831C35FAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{94DF62D8-8ECC-4555-BF21-EFB24A45B2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94DF62D8-8ECC-4555-BF21-EFB24A45B2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94DF62D8-8ECC-4555-BF21-EFB24A45B2CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6354D655-4179-419B-8F85-0B8831C35FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6354D655-4179-419B-8F85-0B8831C35FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6354D655-4179-419B-8F85-0B8831C35FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6354D655-4179-419B-8F85-0B8831C35FAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

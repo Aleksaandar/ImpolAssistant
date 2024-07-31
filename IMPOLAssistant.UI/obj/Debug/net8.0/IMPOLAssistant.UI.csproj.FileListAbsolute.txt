@@ -2076,3 +2076,12 @@ C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.UI\obj
 C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.UI\obj\Debug\net8.0\compressed\rkz114u9oq.gz
 C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.UI\obj\Debug\net8.0\compressed\08m18hzn4a.gz
 C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.UI\obj\Debug\net8.0\compressed\m7rzaruzhr.gz
+C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.UI\bin\Debug\net8.0\wwwroot\_framework\IMPOLAssistant.Shared.pdb
+C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.UI\bin\Debug\net8.0\wwwroot\_framework\IMPOLAssistant.Shared.wasm
+C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.UI\bin\Debug\net8.0\wwwroot\_framework\IMPOLAssistant.Shared.pdb.gz
+C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.UI\bin\Debug\net8.0\wwwroot\_framework\IMPOLAssistant.Shared.wasm.gz
+C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.UI\bin\Debug\net8.0\IMPOLAssistant.Shared.dll
+C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.UI\bin\Debug\net8.0\IMPOLAssistant.Shared.pdb
+C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.UI\obj\Debug\net8.0\webcil\IMPOLAssistant.Shared.wasm
+C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.UI\obj\Debug\net8.0\compressed\ijc56sr2yu.gz
+C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.UI\obj\Debug\net8.0\compressed\hkicbo7xxi.gz

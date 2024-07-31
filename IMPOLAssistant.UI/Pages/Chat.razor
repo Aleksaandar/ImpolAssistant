@@ -1,10 +1,13 @@
 ﻿@page "/chat"
 
+@using IMPOLAssistant.Shared.Models
 @using MudBlazor
 @inject IJSRuntime JS
+@inject HttpClient Http
+
 <MudContainer >
     <MudPaper>
-         <div class="flex-container">
+        <div class="flex-container" >
         <MudText Typo="Typo.h5">IMPOL Asistent Chat</MudText>
             <img src="images/impol-seval.jpg" alt="Description of the image" class="side-image" />
 
@@ -15,11 +18,11 @@
    
     <MudPaper Class="chat-history" id="chatHistory">
 
-        <div class="message-container" >
+        <div class="message-container"  >
         @foreach (var message in messages)
         {
-                <div class="message-box">
-            <MudText Typo="Typo.body1">@message</MudText>
+                <div class="message-box" >
+                    <MudText Typo="Typo.body1">@message.Content (@message.Timestamp)</MudText>
                 </div>
         }
         </div>
@@ -33,34 +36,26 @@
 
 @code {
     private string userInput;
-    private List<string> messages = new List<string>
+    private List<Message> messages = new List<Message>
     {
         
     };
-    protected override async Task OnAfterRenderAsync(bool firstRender)
-    {
-        if (firstRender)
-        {
-            await JS.InvokeVoidAsync("scrollToBottom", "chatHistory");
-        }
-    }
+   
 
-    private async void SendMessage()
+    private async Task SendMessage()
     {
         if (!string.IsNullOrEmpty(userInput))
         {
-            messages.Add(userInput);
-            messages.Add("Eho: " + userInput);
-            userInput = string.Empty;
-            try
+            var userMessage = new Message { Content = userInput, Timestamp = DateTime.Now };
+            var response = await Http.PostAsJsonAsync("https://localhost:7202/api/Chat/send", userMessage);
+            var responseStream = await response.Content.ReadFromJsonAsync<IAsyncEnumerable<Message>>();
+            await foreach (var message in responseStream)
             {
+                messages.Add(message);
 
-                await JS.InvokeVoidAsync("scrollToBottom", "chatHistory");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error in SendMessage: {ex.Message}");
-            }
+           
+            userInput = string.Empty;
+         
         }
     }
   
@@ -106,7 +101,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-           
+        overflow-y: auto;
     }
 
     .message {

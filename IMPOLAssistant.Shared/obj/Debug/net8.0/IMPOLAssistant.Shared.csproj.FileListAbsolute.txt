@@ -1,0 +1,12 @@
+C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.Shared\bin\Debug\net8.0\IMPOLAssistant.Shared.deps.json
+C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.Shared\bin\Debug\net8.0\IMPOLAssistant.Shared.dll
+C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.Shared\bin\Debug\net8.0\IMPOLAssistant.Shared.pdb
+C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.Shared\obj\Debug\net8.0\IMPOLAssistant.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.Shared\obj\Debug\net8.0\IMPOLAssistant.Shared.AssemblyInfoInputs.cache
+C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.Shared\obj\Debug\net8.0\IMPOLAssistant.Shared.AssemblyInfo.cs
+C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.Shared\obj\Debug\net8.0\IMPOLAssistant.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.Shared\obj\Debug\net8.0\IMPOLAssistant.Shared.sourcelink.json
+C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.Shared\obj\Debug\net8.0\IMPOLAssistant.Shared.dll
+C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.Shared\obj\Debug\net8.0\refint\IMPOLAssistant.Shared.dll
+C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.Shared\obj\Debug\net8.0\IMPOLAssistant.Shared.pdb
+C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.Shared\obj\Debug\net8.0\ref\IMPOLAssistant.Shared.dll

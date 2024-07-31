@@ -63,3 +63,5 @@ C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.API\ob
 C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.API\obj\Debug\net8.0\IMPOLAssistant.API.pdb
 C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.API\obj\Debug\net8.0\IMPOLAssistant.API.genruntimeconfig.cache
 C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.API\obj\Debug\net8.0\ref\IMPOLAssistant.API.dll
+C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.API\bin\Debug\net8.0\IMPOLAssistant.Shared.dll
+C:\Users\Hrckok\source\repos\IMPOLAssistant\ImpolAssistant\IMPOLAssistant.API\bin\Debug\net8.0\IMPOLAssistant.Shared.pdb
