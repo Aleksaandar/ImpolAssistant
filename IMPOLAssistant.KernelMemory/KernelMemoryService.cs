@@ -17,9 +17,14 @@ namespace IMPOLAssistant.KernelMemory
             _kernelMemory = kernelMemory;
         }
 
-        public async Task ImportDocumentAsync(string filePath, string documentId)
+        public Task ImportDocumentAsync(string filePath, string documentId)
         {
-            await _kernelMemory.ImportDocumentAsync(filePath, documentId);
+            return _kernelMemory.ImportDocumentAsync(filePath, documentId);
+        }
+
+        public Task ImportWebPageAsync(string url, string docId)
+        {
+            return _kernelMemory.ImportWebPageAsync(url, docId);
         }
 
         public async Task<string> AskAsync(string question)

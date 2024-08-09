@@ -1,3 +1,4 @@
+using DocumentFormat.OpenXml.Office2016.Drawing.ChartDrawing;
 using IMPOLAssistant.KernelMemory;
 using IMPOLAssistant.SemanticKernel;
 using Microsoft.KernelMemory;
@@ -37,8 +38,16 @@ builder.Services.AddScoped(container =>
 });
 
 
-//builder.Services.AddTransient<IKernelMemoryService, KernelMemoryService>();
+builder.Services.AddScoped<IKernelMemory>(container =>
+{
+    return new KernelMemoryBuilder()
+        .WithOpenAIDefaults(openAiApiKey)
+        .Build<MemoryServerless>();
+});
+
+builder.Services.AddTransient<IKernelMemoryService, KernelMemoryService>();
 builder.Services.AddScoped<ISemanticKernelService, SemanticKernelService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
