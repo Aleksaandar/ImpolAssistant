@@ -1,0 +1,154 @@
+{
+  "index": "default",
+  "document_id": "prvaTackaPdf",
+  "execution_id": "b187c7d5b76f485496ceae3628ea034b",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [
+    "gen_embeddings",
+    "save_records"
+  ],
+  "completed_steps": [
+    "extract",
+    "partition"
+  ],
+  "tags": {},
+  "creation": "2024-08-09T19:11:00.3776655+00:00",
+  "last_update": "2024-08-09T19:11:00.5077739+00:00",
+  "files": [
+    {
+      "id": "b14a14ab9dd2443a9da5a073745a914d",
+      "name": "Dnevnik-strucne-prakse-prvaTa\u010Dka.pdf",
+      "size": 297238,
+      "mime_type": "application/pdf",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {},
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "Dnevnik-strucne-prakse-prvaTa\u010Dka.pdf.extract.txt": {
+          "id": "8a299177f958479596014ea009d427cd",
+          "name": "Dnevnik-strucne-prakse-prvaTa\u010Dka.pdf.extract.txt",
+          "size": 6340,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "b14a14ab9dd2443a9da5a073745a914d",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "Dnevnik-strucne-prakse-prvaTa\u010Dka.pdf.extract.json": {
+          "id": "7f9d6ce27ede414685d8a0e2d70fcce3",
+          "name": "Dnevnik-strucne-prakse-prvaTa\u010Dka.pdf.extract.json",
+          "size": 6340,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "b14a14ab9dd2443a9da5a073745a914d",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "Dnevnik-strucne-prakse-prvaTa\u010Dka.pdf.partition.0.txt": {
+          "id": "69b2b23b0cfe4576b8e077d8e6fe06a6",
+          "name": "Dnevnik-strucne-prakse-prvaTa\u010Dka.pdf.partition.0.txt",
+          "size": 1342,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "b14a14ab9dd2443a9da5a073745a914d",
+          "source_partition_id": "",
+          "content_sha256": "b891f1d6d67eb301ba59c3dfcd7bc94c488b8f9cc6881ca1f93625454a2b4e61",
+          "processed_by": [
+            "partition"
+          ]
+        },
+        "Dnevnik-strucne-prakse-prvaTa\u010Dka.pdf.partition.1.txt": {
+          "id": "006a3419ecda43d2b22e026e297cdf1c",
+          "name": "Dnevnik-strucne-prakse-prvaTa\u010Dka.pdf.partition.1.txt",
+          "size": 1315,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "b14a14ab9dd2443a9da5a073745a914d",
+          "source_partition_id": "",
+          "content_sha256": "1aa7270fb57d147e02e84c05f6084ed1f650d84a8942c42a9c4dc11abbc0b66c",
+          "processed_by": [
+            "partition"
+          ]
+        },
+        "Dnevnik-strucne-prakse-prvaTa\u010Dka.pdf.partition.2.txt": {
+          "id": "1434593ec4284e0fbbab308883ed6ba3",
+          "name": "Dnevnik-strucne-prakse-prvaTa\u010Dka.pdf.partition.2.txt",
+          "size": 1335,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "b14a14ab9dd2443a9da5a073745a914d",
+          "source_partition_id": "",
+          "content_sha256": "2c70138e150ee5d71687a847fcba1c00513d9d8768d08abf6ef6c5232655affe",
+          "processed_by": [
+            "partition"
+          ]
+        },
+        "Dnevnik-strucne-prakse-prvaTa\u010Dka.pdf.partition.3.txt": {
+          "id": "c4a828f4f2c144d7a2d85f309946a40f",
+          "name": "Dnevnik-strucne-prakse-prvaTa\u010Dka.pdf.partition.3.txt",
+          "size": 1232,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "b14a14ab9dd2443a9da5a073745a914d",
+          "source_partition_id": "",
+          "content_sha256": "fe0a4043f2a8b5ba94b3a74c35a3f6f495a29c31e8071c2db11b817770fde384",
+          "processed_by": [
+            "partition"
+          ]
+        },
+        "Dnevnik-strucne-prakse-prvaTa\u010Dka.pdf.partition.4.txt": {
+          "id": "25c8e716e0fb4b38bd42443205bfdd2d",
+          "name": "Dnevnik-strucne-prakse-prvaTa\u010Dka.pdf.partition.4.txt",
+          "size": 1553,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 4,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "b14a14ab9dd2443a9da5a073745a914d",
+          "source_partition_id": "",
+          "content_sha256": "b7e0a33384294e66857985aa6b563529efbc55c85b2e7a1c46155174f76de4cc",
+          "processed_by": [
+            "partition"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

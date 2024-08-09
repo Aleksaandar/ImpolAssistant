@@ -1,0 +1,27 @@
+Seval je mrežna, klijent-server aplikacija razvijena u Visual Fox Pro 9.0 okruženju namenjenom prvenstveno tretiranju relacionih baza podataka. Sa druge strane, aplikacija je primer „object-oriented, data-centric and event-driving“ aplikacije i funkcioniše na Win32 platformi. Praktično, to znači da je serverski deo aplikacije na severu sa Windows 2000 operativnim sistemom a klijentski omogućava posredstvom OLE kontrola uključenih u Visual Fox Pro 9.0 pristup serveru sa računara u mreži radi korišćenja njegovih resursa. Grafički utisak koji aplikacija ostavlja je u drugom planu a u centru pažnje su podaci i njihova manipulacija radi kreiranja preglednih izveštaja neophodnih za donošenje brzih poslovnih odluka. U sadašnjem stanju aplikacija obuhvata sledeće module:
+•Proizvodnja, otprema i zalihe gotovih proizvoda
+•Zastoji i bilansi valjaonice
+•Parametri livnice
+•Modul rezervni delovi
+•Evidencija podataka o brušenju valjka
+•Postupci i dokumenti kvaliteta
+•Transport
+•Izvoz
+
+
+Uvodni obrazac i upravljanje odgovarajućim prozorima su prikazani na sledećim slikama:
+ 
+Dakle, odatle se dalje pristupa čitavoj aplikaciji i svim njenim (dostupnim) elementima i stranama, štampanju obrazaca itd, u zavisnosti od odgovarajućih korisničkih privilegija.
+  
+
+Softver je baziran na integralnom sistemu označavanja predmeta poslovanja (materijalnih i nematerijalnih) sa realizacijom u obliku paralelnog sistema.
+Oznaka jednog predmeta u paralelnom sistemu sastoji se od:
+oindentifikacionog broja;
+ozapisa osnovnih podataka i
+oklasifikacionog broja
+čiji je međusobni raspored nezavisan.
+
+Karakteristike aplikacije:
+
+-Skalabilnost (aplikacija se lako širi dodavanjem odgovarajućeg segmenta sa pripadajućom bazom podataka, stavkama u glavnom meniju za unos podataka i pregled izveštaja, obrascima za unos podataka i odgovarajućim izveštajima).
+-Distribuiranost baze podataka (podaci su organizovani u više nezavisnih baza podataka, „database container“, u zavisnosti od procesa za koji su neposredno vezani, što omogućava njihove nezavisne dorade u smislu dodavanja novih tabela, polja ili izgradnje indeksa). -Mogućnost daljinskog nadgledanja (zahvaljujući hibridnoj kombinaciji Windows 2000 i Visual Fox Pro-a 9.

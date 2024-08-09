@@ -1,0 +1,175 @@
+{
+  "index": "default",
+  "document_id": "o-nama",
+  "execution_id": "a0af37fdcc3e4909a1e8533649c2c3c4",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {},
+  "creation": "2024-08-09T18:22:15.4930936+00:00",
+  "last_update": "2024-08-09T18:22:18.26628+00:00",
+  "files": [
+    {
+      "id": "982b7510786741a18a5bd427f71d97c1",
+      "name": "content.url",
+      "size": 27,
+      "mime_type": "text/x-uri",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {},
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.url.extract.txt": {
+          "id": "a811b30156814c58bfa0b5df3b439549",
+          "name": "content.url.extract.txt",
+          "size": 5816,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "982b7510786741a18a5bd427f71d97c1",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.url.extract.json": {
+          "id": "ce9442019b0945a69d1687d4863fbf4a",
+          "name": "content.url.extract.json",
+          "size": 5816,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "982b7510786741a18a5bd427f71d97c1",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.url.partition.0.txt": {
+          "id": "a006c0a1201c42e9bd31399ea9eb59b7",
+          "name": "content.url.partition.0.txt",
+          "size": 2662,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "982b7510786741a18a5bd427f71d97c1",
+          "source_partition_id": "",
+          "content_sha256": "7df2de47421cae690f1ce1233277e52585ebcb9351a61c3f884a876258d9f0be",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/TODO"
+          ]
+        },
+        "content.url.partition.1.txt": {
+          "id": "18e1e98693d145628c70ea14d164a7f4",
+          "name": "content.url.partition.1.txt",
+          "size": 2252,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "982b7510786741a18a5bd427f71d97c1",
+          "source_partition_id": "",
+          "content_sha256": "09575ddb76496a306526518c10ff87233581f549ad76afaafba2866668f46175",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/TODO"
+          ]
+        },
+        "content.url.partition.2.txt": {
+          "id": "49464c61513c4a9aaaa967154c3d4a84",
+          "name": "content.url.partition.2.txt",
+          "size": 761,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "982b7510786741a18a5bd427f71d97c1",
+          "source_partition_id": "",
+          "content_sha256": "79eecf5ddaaf3ae79c7a075bff0db9506241ca9f494b0d31c8277b9e4a6ea4ed",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/TODO"
+          ]
+        },
+        "content.url.partition.0.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding": {
+          "id": "fe63e20d4948455d90cb4f58fd155d74",
+          "name": "content.url.partition.0.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding",
+          "size": 19568,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "982b7510786741a18a5bd427f71d97c1",
+          "source_partition_id": "a006c0a1201c42e9bd31399ea9eb59b7",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.url.partition.1.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding": {
+          "id": "1d87fd870ff04617bf083b8ed1c93a3d",
+          "name": "content.url.partition.1.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding",
+          "size": 19616,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "982b7510786741a18a5bd427f71d97c1",
+          "source_partition_id": "18e1e98693d145628c70ea14d164a7f4",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.url.partition.2.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding": {
+          "id": "3fa987601ff14c148c26e83ccf0c7df7",
+          "name": "content.url.partition.2.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding",
+          "size": 19639,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "982b7510786741a18a5bd427f71d97c1",
+          "source_partition_id": "49464c61513c4a9aaaa967154c3d4a84",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

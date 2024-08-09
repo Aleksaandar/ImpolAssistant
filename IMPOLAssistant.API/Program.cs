@@ -2,6 +2,10 @@ using DocumentFormat.OpenXml.Office2016.Drawing.ChartDrawing;
 using IMPOLAssistant.KernelMemory;
 using IMPOLAssistant.SemanticKernel;
 using Microsoft.KernelMemory;
+using Microsoft.KernelMemory.DocumentStorage.DevTools;
+using Microsoft.KernelMemory.FileSystem.DevTools;
+using Microsoft.KernelMemory.MemoryStorage.DevTools;
+using Microsoft.KernelMemory.Pipeline.Queue.DevTools;
 using Microsoft.KernelMemory.SemanticKernel;
 using Microsoft.SemanticKernel;
 
@@ -42,6 +46,22 @@ builder.Services.AddScoped<IKernelMemory>(container =>
 {
     return new KernelMemoryBuilder()
         .WithOpenAIDefaults(openAiApiKey)
+        .WithSimpleFileStorage(new SimpleFileStorageConfig()
+        {
+            StorageType = FileSystemTypes.Disk
+        })
+        .WithSimpleQueuesPipeline(new SimpleQueuesConfig()
+        {
+            StorageType = FileSystemTypes.Disk
+        })
+        .WithSimpleVectorDb(new SimpleVectorDbConfig()
+        {
+            StorageType = FileSystemTypes.Disk
+        })
+        .WithSimpleTextDb(new SimpleTextDbConfig()
+        {
+            StorageType = FileSystemTypes.Disk
+        })
         .Build<MemoryServerless>();
 });
 

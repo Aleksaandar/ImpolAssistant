@@ -1,0 +1,413 @@
+{
+  "index": "default",
+  "document_id": "-latinicaDocx",
+  "execution_id": "cb0408e177334d1f9edacc536b5444f4",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {},
+  "creation": "2024-08-09T19:18:57.9698095+00:00",
+  "last_update": "2024-08-09T19:19:00.4888048+00:00",
+  "files": [
+    {
+      "id": "66f1fc61f46e4fa393b9d998f962ba03",
+      "name": "latinica.docx",
+      "size": 20531,
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {},
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "latinica.docx.extract.txt": {
+          "id": "632b3acc2c0b47728189999dd30582f4",
+          "name": "latinica.docx.extract.txt",
+          "size": 20236,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "66f1fc61f46e4fa393b9d998f962ba03",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "latinica.docx.extract.json": {
+          "id": "ca5ea550637948eb883f1f07d8f90e9d",
+          "name": "latinica.docx.extract.json",
+          "size": 20236,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "66f1fc61f46e4fa393b9d998f962ba03",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "latinica.docx.partition.0.txt": {
+          "id": "d94132919f014086815619c57d01da43",
+          "name": "latinica.docx.partition.0.txt",
+          "size": 2427,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "66f1fc61f46e4fa393b9d998f962ba03",
+          "source_partition_id": "",
+          "content_sha256": "803c4cc46edfeb611c9cf512129c7419e931df1e7b72133f229593b498551dc8",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/TODO"
+          ]
+        },
+        "latinica.docx.partition.1.txt": {
+          "id": "91e9695346154971a8ee64d60a2c75af",
+          "name": "latinica.docx.partition.1.txt",
+          "size": 2150,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "66f1fc61f46e4fa393b9d998f962ba03",
+          "source_partition_id": "",
+          "content_sha256": "e670c7d1520d2241f11d3388491bd683b11f9163beaefeeac6ff6004ad45e1da",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/TODO"
+          ]
+        },
+        "latinica.docx.partition.2.txt": {
+          "id": "20b2a3e3eaa04219a33a9255f2c2b341",
+          "name": "latinica.docx.partition.2.txt",
+          "size": 2188,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "66f1fc61f46e4fa393b9d998f962ba03",
+          "source_partition_id": "",
+          "content_sha256": "2b342a1bda8cdf9f65005d128b328697e691dd8e21b1af4c0f09798f2b1e50d2",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/TODO"
+          ]
+        },
+        "latinica.docx.partition.3.txt": {
+          "id": "724301d6781b4fd0a93cea0c3bfef227",
+          "name": "latinica.docx.partition.3.txt",
+          "size": 2702,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "66f1fc61f46e4fa393b9d998f962ba03",
+          "source_partition_id": "",
+          "content_sha256": "edc23d99b032215d692f28586d6e3e737995274e59fb5c75bf852a803ee700c2",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/TODO"
+          ]
+        },
+        "latinica.docx.partition.4.txt": {
+          "id": "c9952c1018a948d1a0abee323436ece0",
+          "name": "latinica.docx.partition.4.txt",
+          "size": 2638,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 4,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "66f1fc61f46e4fa393b9d998f962ba03",
+          "source_partition_id": "",
+          "content_sha256": "151e509c406eb31fd81bb8553a3d4c8e01c5f2aeaee3bead803a8ecc2496737d",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/TODO"
+          ]
+        },
+        "latinica.docx.partition.5.txt": {
+          "id": "95c18f70c25d46e5a0eaedc38224bc62",
+          "name": "latinica.docx.partition.5.txt",
+          "size": 2298,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 5,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "66f1fc61f46e4fa393b9d998f962ba03",
+          "source_partition_id": "",
+          "content_sha256": "280368478d1ede96b7a08312c2a8f58b0ea40ba037b23e714d663828e37e5d76",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/TODO"
+          ]
+        },
+        "latinica.docx.partition.6.txt": {
+          "id": "e9873423f4824c38b28175dd29259443",
+          "name": "latinica.docx.partition.6.txt",
+          "size": 2440,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 6,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "66f1fc61f46e4fa393b9d998f962ba03",
+          "source_partition_id": "",
+          "content_sha256": "efd79b515d37f0837db5d3f1da5b41af61fe52142fb719de728bd1511b7beecc",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/TODO"
+          ]
+        },
+        "latinica.docx.partition.7.txt": {
+          "id": "6a9f9c21209b45038c71db7def2548ab",
+          "name": "latinica.docx.partition.7.txt",
+          "size": 2211,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 7,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "66f1fc61f46e4fa393b9d998f962ba03",
+          "source_partition_id": "",
+          "content_sha256": "98e2f4953053a2e4881b7e8832ab8c690672369a7f2f6faeac247415d9d1fd47",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/TODO"
+          ]
+        },
+        "latinica.docx.partition.8.txt": {
+          "id": "a7c3821ecaf24cf2924958d53671abba",
+          "name": "latinica.docx.partition.8.txt",
+          "size": 2098,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 8,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "66f1fc61f46e4fa393b9d998f962ba03",
+          "source_partition_id": "",
+          "content_sha256": "6595ca03addd387b6600801f5a744c1195b2981cbdd41e1f0df49e255b87ae63",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/TODO"
+          ]
+        },
+        "latinica.docx.partition.9.txt": {
+          "id": "0b2fa0ddab8241b198202c3dbdbb8f11",
+          "name": "latinica.docx.partition.9.txt",
+          "size": 631,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 9,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "66f1fc61f46e4fa393b9d998f962ba03",
+          "source_partition_id": "",
+          "content_sha256": "87958786fed8e4ee9b869cd8f5011cfe6137919c164aa4d3c88e18d7e6e614f8",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/TODO"
+          ]
+        },
+        "latinica.docx.partition.0.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding": {
+          "id": "f3a0235581ae4d5aae6f05c411ee2dd3",
+          "name": "latinica.docx.partition.0.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding",
+          "size": 19625,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "66f1fc61f46e4fa393b9d998f962ba03",
+          "source_partition_id": "d94132919f014086815619c57d01da43",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "latinica.docx.partition.1.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding": {
+          "id": "c6e641a9cd834ac4b70231e64c85f22a",
+          "name": "latinica.docx.partition.1.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding",
+          "size": 19619,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "66f1fc61f46e4fa393b9d998f962ba03",
+          "source_partition_id": "91e9695346154971a8ee64d60a2c75af",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "latinica.docx.partition.2.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding": {
+          "id": "ec2e3d9bc6cb47f8be1222d2b0c4f69b",
+          "name": "latinica.docx.partition.2.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding",
+          "size": 19669,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "66f1fc61f46e4fa393b9d998f962ba03",
+          "source_partition_id": "20b2a3e3eaa04219a33a9255f2c2b341",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "latinica.docx.partition.3.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding": {
+          "id": "73948598fd4f48b6834993379da57643",
+          "name": "latinica.docx.partition.3.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding",
+          "size": 19636,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "66f1fc61f46e4fa393b9d998f962ba03",
+          "source_partition_id": "724301d6781b4fd0a93cea0c3bfef227",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "latinica.docx.partition.4.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding": {
+          "id": "b4c169e677dc4fda9af009ec45558a3f",
+          "name": "latinica.docx.partition.4.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding",
+          "size": 19634,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 4,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "66f1fc61f46e4fa393b9d998f962ba03",
+          "source_partition_id": "c9952c1018a948d1a0abee323436ece0",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "latinica.docx.partition.5.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding": {
+          "id": "0b03134c6a2f4e9a9ed882d9de551971",
+          "name": "latinica.docx.partition.5.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding",
+          "size": 19658,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 5,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "66f1fc61f46e4fa393b9d998f962ba03",
+          "source_partition_id": "95c18f70c25d46e5a0eaedc38224bc62",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "latinica.docx.partition.6.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding": {
+          "id": "47ea2c2a8a8e449f855fdd2b93789727",
+          "name": "latinica.docx.partition.6.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding",
+          "size": 19555,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 6,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "66f1fc61f46e4fa393b9d998f962ba03",
+          "source_partition_id": "e9873423f4824c38b28175dd29259443",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "latinica.docx.partition.7.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding": {
+          "id": "bcc7b801c16847888b2238c10f745cdc",
+          "name": "latinica.docx.partition.7.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding",
+          "size": 19715,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 7,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "66f1fc61f46e4fa393b9d998f962ba03",
+          "source_partition_id": "6a9f9c21209b45038c71db7def2548ab",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "latinica.docx.partition.8.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding": {
+          "id": "b2090176ea664a2e8e4cc316624bb609",
+          "name": "latinica.docx.partition.8.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding",
+          "size": 19623,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 8,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "66f1fc61f46e4fa393b9d998f962ba03",
+          "source_partition_id": "a7c3821ecaf24cf2924958d53671abba",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "latinica.docx.partition.9.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding": {
+          "id": "a55ccfc18bdd4ce2a6b7c7b534f2a911",
+          "name": "latinica.docx.partition.9.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding",
+          "size": 19899,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 9,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "66f1fc61f46e4fa393b9d998f962ba03",
+          "source_partition_id": "0b2fa0ddab8241b198202c3dbdbb8f11",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

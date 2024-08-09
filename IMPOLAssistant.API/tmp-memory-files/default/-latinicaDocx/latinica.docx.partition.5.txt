@@ -1,0 +1,12 @@
+Mobilne telefone poseduju svi rukovodioci, poslovođe i zaposleni na radnim mestima od bitnog značaja za funkcionisanje proizvodnje. Što se tiče bezbednosti, perimetar je zaštićen sistemom Fiber-fance, koji je integrisan sa pokretnim kamerama. Video zapis se redovno snima i čuva, a monitoring se vrši 24 časova dnevno. Za monitoring zadužena je Valjaonica bezbednost. Video kamerama su pokriveni i pojedini delovi proizvodnje. Ove kamere su integrisane u lokalnu računarsku mrežu Impol Seval i video zapisi se skladište na dva lokalna NVR uređaja.
+DATUM: 05.08.2024.
+DAN: Ponedeljak
+
+
+SADRŽAJ
+
+1. Upoznavanje sa softverom firme
+2. Delnik Infosistem – Delphi baziran softver
+3. Rad u programu Delnik Infosistem
+Svog trećeg radnog dana bio sam upoznat sa softverom, aplikacijama, programima i bazom podataka valjaonice. Slovenska firma Alcad je zadužena za održavanje i upravljanje softverom Valjaonice Impol Seval Sevojno, ipak pre njene privatizacije zaposleni su pravili lokalne programe za svoje potrebe. Jedni od takvih programa su Delnik Infosistem i Seval. Danas se uglavnom koriste gotove aplikacije za unos podataka, pravljenje izveštaja, knjigovodstvo, platne programe, osobne dobitke, evidenciju radnog vremena, evidenciju i nabavku osnovnih sredstava. Za praćenje proizvodnje se koristi program PIS koji podrazumeva: praćenje proizvodnih poslova, prodajnih poslova, administrativnih poslova, praćenje nivoa skladišta, odpremnica i nabavnih poslova.
+Delnik Infosistem je lokalni mrežni softver razvijen putem programskog okruženja Delphi, i služi za obradu podataka iz procesa koji nisu obuhvaćeni glavnim softverom za praćenje proizvodnje. Program je u stalnom razvoju od 2000-te godine i pruža mogućnosti praćenja podataka o računarima, zaposlenima, odeljku za posete, ličnom dohotku, daje mogućnost ocene radnika, evidenciju tehničke dokumentacije, sadrži u sebi i program za merno-kontrolna sredstva, program za reklamacije, evidencije kupaca i evidencije država za izvoz. Ukratko, Delnik Infosistem se koristi za internu evidenciju: praćenje kadrova i najrazličitijih procesa u firmi. U biti svega je baza podataka Paradox kao tip baze kojo pristupa program radi rada sa podacima u lokalu (lokalna baza podataka). Sam program je pisan OOP načinom, uz poštovanje brojinh konvencija.

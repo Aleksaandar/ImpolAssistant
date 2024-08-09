@@ -11,5 +11,6 @@ namespace IMPOLAssistant.KernelMemory
         Task ImportDocumentAsync(string filePath, string documentId);
         Task<string> AskAsync(string question);
         Task ImportWebPageAsync(string url, string docId);
+        
     }
 }
