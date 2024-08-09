@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace IMPOLAssistant.KernelMemory
 {
-    internal interface IKernelMemoryService
+    public interface IKernelMemoryService
     {
+        Task ImportDocumentAsync(string filePath, string documentId);
+        Task<string> AskAsync(string question);
     }
 }

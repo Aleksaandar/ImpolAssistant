@@ -1,14 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.SemanticKernel;
+﻿using Microsoft.SemanticKernel;
 
-using System.Threading.Tasks;
 
 namespace IMPOLAssistant.SemanticKernel
 {
-    internal class SemanticKernelService
+    public class SemanticKernelService: ISemanticKernelService
     {
+        private readonly Kernel kernel;
+
+        public SemanticKernelService(Kernel kernel)
+        {
+            this.kernel = kernel;
+        }
+
+        public async Task<string> ProcessUserQueryAsync(string query)
+        {
+            var result = await kernel.InvokePromptAsync(query);
+            var value = result.GetValue<string>();
+            return value != null ? value : string.Empty;
+        }
     }
 }
+

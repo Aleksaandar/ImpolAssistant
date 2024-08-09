@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using IMPOLAssistant.API.Models;
+using IMPOLAssistant.SemanticKernel;
 
 
 namespace IMPOLAssistant.API.Controllers
@@ -11,9 +12,17 @@ namespace IMPOLAssistant.API.Controllers
     [Route("api/[controller]")]
     public class ChatController : ControllerBase
     {
+        private readonly ISemanticKernelService semanticKernel;
+
+        public ChatController(ISemanticKernelService semanticKernel)
+        {
+            this.semanticKernel = semanticKernel;
+        }
+
         [HttpPost("send")]
         public async IAsyncEnumerable<Message> SendMessage([FromBody] Message userMessage)
         {
+            var odgovor = await this.semanticKernel.ProcessUserQueryAsync(userMessage.Content);
             // Emitovanje korisničke poruke
             yield return new Message
             {
@@ -25,7 +34,7 @@ namespace IMPOLAssistant.API.Controllers
             await Task.Delay(1000); // Simulacija kašnjenja
             yield return new Message
             {
-                Content = "Odgovor: " + userMessage.Content,
+                Content = "Odgovor: " + odgovor,
                 Timestamp = DateTime.Now
             };
         }
