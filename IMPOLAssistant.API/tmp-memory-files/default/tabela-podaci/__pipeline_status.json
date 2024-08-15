@@ -1,0 +1,46 @@
+{
+  "index": "default",
+  "document_id": "tabela-podaci",
+  "execution_id": "339070fef0f54d7fb5c97216bc06481c",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {},
+  "creation": "2024-08-13T21:05:23.9880178+00:00",
+  "last_update": "2024-08-13T21:05:24.0583774+00:00",
+  "files": [
+    {
+      "id": "7de21053c3874b9380946bddec26e3f2",
+      "name": "Podaci.csv",
+      "size": 4466176,
+      "mime_type": "text/csv",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {},
+      "processed_by": [
+        "extract"
+      ],
+      "log": [
+        {
+          "t": "2024-08-13T21:05:24.0513479+00:00",
+          "src": "extract",
+          "txt": "File MIME type not supported: text/csv. Ignoring the file Podaci.csv."
+        }
+      ],
+      "generated_files": {}
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

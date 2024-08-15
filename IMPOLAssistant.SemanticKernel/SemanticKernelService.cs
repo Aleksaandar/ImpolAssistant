@@ -3,9 +3,11 @@
 
 namespace IMPOLAssistant.SemanticKernel
 {
-    public class SemanticKernelService: ISemanticKernelService
+
+    public class SemanticKernelService : ISemanticKernelService
     {
         private readonly Kernel kernel;
+
 
         public SemanticKernelService(Kernel kernel)
         {

@@ -1,0 +1,23 @@
+-Lična zaštitna sredstva (koristi se od jula 2014. s pauzom od decembra 2016. god. do novembra 2019. god.) - modul koji pruža mogućnosti evidencije izdavanja i skladištenja, planiranja nabavke LZS, praćenja izdavanja LZS po zaposlenom, definisanje skupa LZS za zaposlenog u zavisnosti od njegovog radnog mesta... Obezbeđeni su raznovrsni pojedinačni, periodični i sumarni izveštaji, kao i drugi izlazni rezultati (izvoz tabela u željeni format...)
+
+-Simulacije - modul kreiran za potrebe izrade nekih projektnih zadataka sa nizom interesantnih izveštaja o proizvodnji u periodu od 2007. do 2008. godine
+Za sve module : omogućen je izvoz tabela u nekoliko karakterističnih formata (.XL5, .CSV, .DIF, .TXT),   kao i štampanje izveštaja u .PDF formatu. Takođe, svaku tabelu pripadajuće baze podataka moguće je filtrirati po nekom kriterijumu. U meniju Grafikoni mogu se dobiti dijagrami kursa € i LME (€/t)  za aktuelni period (neki od meseci u zadnjih godinu dana, zadnjih godinu ili dve dana).
+
+
+
+Ekran aplikacije
+Početni ekran aplikacije daje neke osnovne informacije o poslovanju kao što su:
+•srednji kurs € [RSD/€]
+•LME [€/t]
+•Proizvodnja neto: Ukupno /L/TV/HV/B [t] za:
+-prethodni dan
+-tekuću sedmicu
+
+-prošlu sedmicu
+-tekući mesec
+-tekuću godinu
+i prikazuje dijagrame neto proizvodnje za tekući mesec i tekuću godinu za sve četiri kategorije proizvoda (L, TV, HV i B) i izgleda ovako:
+ 
+
+Desni klik na ekran daje kontekstni meni sa najčeće traženim izveštajima, dijagramima i sl. Paleta sa komandnim dugmadima na desnoj strani omogućava pristup dijagramima proizvodnje, zastoja i faktora protoka.
+Aplikaciju trenutno koristi preko 60 korisnika sa preko 27400 časova rada godišnje. Prosečno mesečno se pregleda preko 1680 izveštaja, odštampa preko 150, izvrši više od 50 prenosa (“download”) sa servera na matični računar (ovo su podaci za 2023. godinu). Komunikacija se obavlja satelitskom vezom, pa se kao jedan od problema navode i vremenske (ne)prilike na krajnjim lokacijama.

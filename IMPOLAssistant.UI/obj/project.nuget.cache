@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Hp61T/404Os=",
+  "dgSpecHash": "pPesHfEWZhM=",
   "success": true,
   "projectFilePath": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.UI\\IMPOLAssistant.UI.csproj",
   "expectedPackageFiles": [
@@ -32,7 +32,7 @@
     "C:\\Users\\Hrckok\\.nuget\\packages\\microsoft.jsinterop.webassembly\\8.0.7\\microsoft.jsinterop.webassembly.8.0.7.nupkg.sha512",
     "C:\\Users\\Hrckok\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.7\\microsoft.net.illink.tasks.8.0.7.nupkg.sha512",
     "C:\\Users\\Hrckok\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.7\\microsoft.net.sdk.webassembly.pack.8.0.7.nupkg.sha512",
-    "C:\\Users\\Hrckok\\.nuget\\packages\\mudblazor\\7.4.0\\mudblazor.7.4.0.nupkg.sha512",
+    "C:\\Users\\Hrckok\\.nuget\\packages\\mudblazor\\7.6.0\\mudblazor.7.6.0.nupkg.sha512",
     "C:\\Users\\Hrckok\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\Hrckok\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\Hrckok\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",

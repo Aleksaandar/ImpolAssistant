@@ -1,10 +1,6 @@
 ﻿using Microsoft.KernelMemory;
-using Microsoft.SemanticKernel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using OfficeOpenXml;
+
 
 namespace IMPOLAssistant.KernelMemory
 {
@@ -31,6 +27,23 @@ namespace IMPOLAssistant.KernelMemory
         {
             var result = await _kernelMemory.AskAsync(question);
             return result.Result;
+        }
+        public async Task ImportExcelAsync(string filePath, string docId)
+        {
+            using var package = new ExcelPackage(new FileInfo(filePath));
+            var worksheet = package.Workbook.Worksheets[0]; 
+
+            for (int row = 1; row <= worksheet.Dimension.Rows; row++)
+            {
+                var content = "";
+                for (int col = 1; col <= worksheet.Dimension.Columns; col++)
+                {
+                    content += worksheet.Cells[row, col].Text + " ";
+                }
+
+                
+                await _kernelMemory.ImportDocumentAsync(content, $"{docId}_row{row}");
+            }
         }
     }
 }

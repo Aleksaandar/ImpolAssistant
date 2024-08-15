@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "o-nama",
-  "execution_id": "a0af37fdcc3e4909a1e8533649c2c3c4",
+  "execution_id": "b1eaceabc37740c7b4f4ebad4beb972e",
   "steps": [
     "extract",
     "partition",
@@ -16,11 +16,11 @@
     "save_records"
   ],
   "tags": {},
-  "creation": "2024-08-09T18:22:15.4930936+00:00",
-  "last_update": "2024-08-09T18:22:18.26628+00:00",
+  "creation": "2024-08-15T12:07:11.5007137+00:00",
+  "last_update": "2024-08-15T12:07:13.4914854+00:00",
   "files": [
     {
-      "id": "982b7510786741a18a5bd427f71d97c1",
+      "id": "51bc4425d3004eed8a9347ba3b3c03db",
       "name": "content.url",
       "size": 27,
       "mime_type": "text/x-uri",
@@ -33,7 +33,7 @@
       ],
       "generated_files": {
         "content.url.extract.txt": {
-          "id": "a811b30156814c58bfa0b5df3b439549",
+          "id": "ab6f64064db14c9bb9c5fedd32542d08",
           "name": "content.url.extract.txt",
           "size": 5816,
           "mime_type": "text/plain",
@@ -41,7 +41,7 @@
           "partition_number": 0,
           "section_number": 0,
           "tags": {},
-          "parent_id": "982b7510786741a18a5bd427f71d97c1",
+          "parent_id": "51bc4425d3004eed8a9347ba3b3c03db",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -50,7 +50,7 @@
           ]
         },
         "content.url.extract.json": {
-          "id": "ce9442019b0945a69d1687d4863fbf4a",
+          "id": "dc420e687ec947118742e8036e8b62aa",
           "name": "content.url.extract.json",
           "size": 5816,
           "mime_type": "text/plain",
@@ -58,7 +58,7 @@
           "partition_number": 0,
           "section_number": 0,
           "tags": {},
-          "parent_id": "982b7510786741a18a5bd427f71d97c1",
+          "parent_id": "51bc4425d3004eed8a9347ba3b3c03db",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -66,7 +66,7 @@
           ]
         },
         "content.url.partition.0.txt": {
-          "id": "a006c0a1201c42e9bd31399ea9eb59b7",
+          "id": "36388ce8d22b407880566f2994a3166c",
           "name": "content.url.partition.0.txt",
           "size": 2662,
           "mime_type": "text/plain",
@@ -74,7 +74,7 @@
           "partition_number": 0,
           "section_number": 0,
           "tags": {},
-          "parent_id": "982b7510786741a18a5bd427f71d97c1",
+          "parent_id": "51bc4425d3004eed8a9347ba3b3c03db",
           "source_partition_id": "",
           "content_sha256": "7df2de47421cae690f1ce1233277e52585ebcb9351a61c3f884a876258d9f0be",
           "processed_by": [
@@ -83,7 +83,7 @@
           ]
         },
         "content.url.partition.1.txt": {
-          "id": "18e1e98693d145628c70ea14d164a7f4",
+          "id": "64bf00797bd54f1baf5f092efc1f4482",
           "name": "content.url.partition.1.txt",
           "size": 2252,
           "mime_type": "text/plain",
@@ -91,7 +91,7 @@
           "partition_number": 1,
           "section_number": 0,
           "tags": {},
-          "parent_id": "982b7510786741a18a5bd427f71d97c1",
+          "parent_id": "51bc4425d3004eed8a9347ba3b3c03db",
           "source_partition_id": "",
           "content_sha256": "09575ddb76496a306526518c10ff87233581f549ad76afaafba2866668f46175",
           "processed_by": [
@@ -100,7 +100,7 @@
           ]
         },
         "content.url.partition.2.txt": {
-          "id": "49464c61513c4a9aaaa967154c3d4a84",
+          "id": "c860be57cf1c47f1873b8e01b1035cb7",
           "name": "content.url.partition.2.txt",
           "size": 761,
           "mime_type": "text/plain",
@@ -108,7 +108,7 @@
           "partition_number": 2,
           "section_number": 0,
           "tags": {},
-          "parent_id": "982b7510786741a18a5bd427f71d97c1",
+          "parent_id": "51bc4425d3004eed8a9347ba3b3c03db",
           "source_partition_id": "",
           "content_sha256": "79eecf5ddaaf3ae79c7a075bff0db9506241ca9f494b0d31c8277b9e4a6ea4ed",
           "processed_by": [
@@ -117,7 +117,7 @@
           ]
         },
         "content.url.partition.0.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding": {
-          "id": "fe63e20d4948455d90cb4f58fd155d74",
+          "id": "86bda985fb9142ebafc6a8d7739a02a9",
           "name": "content.url.partition.0.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding",
           "size": 19568,
           "mime_type": "float[]",
@@ -125,8 +125,8 @@
           "partition_number": 0,
           "section_number": 0,
           "tags": {},
-          "parent_id": "982b7510786741a18a5bd427f71d97c1",
-          "source_partition_id": "a006c0a1201c42e9bd31399ea9eb59b7",
+          "parent_id": "51bc4425d3004eed8a9347ba3b3c03db",
+          "source_partition_id": "36388ce8d22b407880566f2994a3166c",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -134,7 +134,7 @@
           ]
         },
         "content.url.partition.1.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding": {
-          "id": "1d87fd870ff04617bf083b8ed1c93a3d",
+          "id": "a783c64e03234c0eac3a901f6d51137e",
           "name": "content.url.partition.1.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding",
           "size": 19616,
           "mime_type": "float[]",
@@ -142,8 +142,8 @@
           "partition_number": 1,
           "section_number": 0,
           "tags": {},
-          "parent_id": "982b7510786741a18a5bd427f71d97c1",
-          "source_partition_id": "18e1e98693d145628c70ea14d164a7f4",
+          "parent_id": "51bc4425d3004eed8a9347ba3b3c03db",
+          "source_partition_id": "64bf00797bd54f1baf5f092efc1f4482",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -151,7 +151,7 @@
           ]
         },
         "content.url.partition.2.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding": {
-          "id": "3fa987601ff14c148c26e83ccf0c7df7",
+          "id": "28841ecb76154a4cb795039b615fa95d",
           "name": "content.url.partition.2.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.TODO.text_embedding",
           "size": 19639,
           "mime_type": "float[]",
@@ -159,8 +159,8 @@
           "partition_number": 2,
           "section_number": 0,
           "tags": {},
-          "parent_id": "982b7510786741a18a5bd427f71d97c1",
-          "source_partition_id": "49464c61513c4a9aaaa967154c3d4a84",
+          "parent_id": "51bc4425d3004eed8a9347ba3b3c03db",
+          "source_partition_id": "c860be57cf1c47f1873b8e01b1035cb7",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

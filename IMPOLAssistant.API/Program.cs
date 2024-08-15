@@ -67,10 +67,11 @@ builder.Services.AddScoped<IKernelMemory>(container =>
 
 builder.Services.AddTransient<IKernelMemoryService, KernelMemoryService>();
 builder.Services.AddScoped<ISemanticKernelService, SemanticKernelService>();
+builder.Services.AddScoped<ITabelaLeguraKernelService, TabelaLeguraKernelService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
