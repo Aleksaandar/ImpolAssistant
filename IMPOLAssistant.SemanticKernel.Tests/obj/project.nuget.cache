@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X/R2GAHocKo=",
+  "dgSpecHash": "ZSm8EgFP+UM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.SemanticKernel.Tests\\IMPOLAssistant.SemanticKernel.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.SemanticKernel.Tests\\FONAssistant.SemanticKernel.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hrckok\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Hrckok\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

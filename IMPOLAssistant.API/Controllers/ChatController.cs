@@ -27,11 +27,11 @@ namespace IMPOLAssistant.API.Controllers
         }
 
         [HttpPost("send")]
-        public async Task<List<Message>> SendMessage([FromBody] Message userMessage)
+        public async Task<List<Message>> SendMessage([FromBody] Message userMessage,  string index)
         {
             var responseMessages = new List<Message>();
 
-            var odgovor = await this.kernelMemoryService.AskAsync(userMessage.Content);
+            var odgovor = await this.kernelMemoryService.AskAsync(userMessage.Content,index);
 
             responseMessages.Add(new Message
             {

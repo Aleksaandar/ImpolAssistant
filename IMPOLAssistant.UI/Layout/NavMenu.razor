@@ -1,6 +1,12 @@
-﻿<div class="navbar">
+﻿@using IMPOLAssistant.Shared.Models
+@using Microsoft.AspNetCore.Components.Authorization
+@inject NavigationManager Navigation
+@inject JWTAuthStateProvider AuthStateProvider
+
+<div class="navbar">
+
     <div class="container-fluid">
-        <a class="navbar-brand" href="">IMPOL Asistent</a>
+        <a class="navbar-brand" href="">Study Assistent</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -10,16 +16,28 @@
 <div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
     <nav class="flex-column">
         <div class="nav-item px-3">
-            <MudNavLink class="mud-nav-link" href="/">
-                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Chat
-            </MudNavLink>
+            @if (state?.User?.Identity?.IsAuthenticated ?? false)
+            {
+                <MudNavLink class="mud-nav-link" href="/">
+                    <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Ekonomija
+                </MudNavLink>
+
+                <MudNavLink class="mud-nav-link" href="/osnoveKvaliteta">
+                    <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Osnove kvaliteta
+                </MudNavLink>
+                <MudNavLink class="mud-nav-link" href="/osnoviOrganizacije">
+                    <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Osnovi organizacije
+                </MudNavLink>
+            }
+
         </div>
-     
+
     </nav>
 </div>
 
 @code {
     private bool collapseNavMenu = true;
+    private AuthenticationState? state = null;
 
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
@@ -27,15 +45,30 @@
     {
         collapseNavMenu = !collapseNavMenu;
     }
+
+    protected override async Task OnInitializedAsync()
+
+    {
+       
+        this.state = await AuthStateProvider.GetAuthenticationStateAsync();
+        AuthStateProvider.AuthenticationStateChanged += OnAuthenticationStateChanged;
+    }
+
+    private async void OnAuthenticationStateChanged(Task<AuthenticationState> task)
+    {
+        this.state = await task;
+        StateHasChanged();
+    }
 }
 <style>
-    .nav-scrollable{
+    .nav-scrollable {
         background-color: #204490;
     }
+
     .mud-nav-link {
         text-decoration: none !important;
         vertical-align: middle;
-       
+        width: 110%;
     }
 
     .navbar {
@@ -43,6 +76,6 @@
     }
 
     .bi {
-        vertical-align: middle; 
+        vertical-align: middle;
     }
 </style>

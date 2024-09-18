@@ -29,20 +29,32 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hrckok/source/repos/IMPOLAssistant/ImpolAssistant/IMPOLAssistant.UI/Pages/Chat.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhdC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Hrckok/source/repos/IMPOLAssistant/ImpolAssistant/IMPOLAssistant.UI/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hrckok/source/repos/IMPOLAssistant/ImpolAssistant/IMPOLAssistant.UI/Pages/Ekonomija.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWtvbm9taWphLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Hrckok/source/repos/IMPOLAssistant/ImpolAssistant/IMPOLAssistant.UI/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hrckok/source/repos/IMPOLAssistant/ImpolAssistant/IMPOLAssistant.UI/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
+[C:/Users/Hrckok/source/repos/IMPOLAssistant/ImpolAssistant/IMPOLAssistant.UI/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hrckok/source/repos/IMPOLAssistant/ImpolAssistant/IMPOLAssistant.UI/Pages/OsnoveKvaliteta.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3Nub3ZlS3ZhbGl0ZXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hrckok/source/repos/IMPOLAssistant/ImpolAssistant/IMPOLAssistant.UI/Pages/OsnoviOrganizacije.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3Nub3ZpT3JnYW5pemFjaWplLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hrckok/source/repos/IMPOLAssistant/ImpolAssistant/IMPOLAssistant.UI/Pages/RedirectToLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVkaXJlY3RUb0xvZ2luLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Hrckok/source/repos/IMPOLAssistant/ImpolAssistant/IMPOLAssistant.UI/_Imports.razor]

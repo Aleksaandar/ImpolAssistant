@@ -1182,9 +1182,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.SemanticKernel\\IMPOLAssistant.SemanticKernel.csproj",
-      "projectName": "IMPOLAssistant.SemanticKernel",
-      "projectPath": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.SemanticKernel\\IMPOLAssistant.SemanticKernel.csproj",
+      "projectUniqueName": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.SemanticKernel\\FONAssistant.SemanticKernel.csproj",
+      "projectName": "FONAssistant.SemanticKernel",
+      "projectPath": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.SemanticKernel\\FONAssistant.SemanticKernel.csproj",
       "packagesPath": "C:\\Users\\Hrckok\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.SemanticKernel\\obj\\",
       "projectStyle": "PackageReference",

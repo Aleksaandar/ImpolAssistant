@@ -5513,9 +5513,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.SemanticKernel.Tests\\IMPOLAssistant.SemanticKernel.Tests.csproj",
-      "projectName": "IMPOLAssistant.SemanticKernel.Tests",
-      "projectPath": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.SemanticKernel.Tests\\IMPOLAssistant.SemanticKernel.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.SemanticKernel.Tests\\FONAssistant.SemanticKernel.Tests.csproj",
+      "projectName": "FONAssistant.SemanticKernel.Tests",
+      "projectPath": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.SemanticKernel.Tests\\FONAssistant.SemanticKernel.Tests.csproj",
       "packagesPath": "C:\\Users\\Hrckok\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.SemanticKernel.Tests\\obj\\",
       "projectStyle": "PackageReference",

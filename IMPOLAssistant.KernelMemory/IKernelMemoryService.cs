@@ -8,9 +8,10 @@ namespace IMPOLAssistant.KernelMemory
 {
     public interface IKernelMemoryService
     {
-        Task ImportDocumentAsync(string filePath, string documentId);
-        Task<string> AskAsync(string question);
-        Task ImportWebPageAsync(string url, string docId);
+        Task ImportDocumentAsync(string filePath, string documentId, string index);
+        Task<string> AskAsync(string question, string index);
+        Task<string> SearchAsync(string question);
+        Task ImportWebPageAsync(string url, string docId, string index);
         Task ImportExcelAsync(string filePath, string docId);
 
 

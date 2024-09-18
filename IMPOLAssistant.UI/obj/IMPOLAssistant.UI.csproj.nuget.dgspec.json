@@ -4,12 +4,12 @@
     "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.UI\\IMPOLAssistant.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.Shared\\IMPOLAssistant.Shared.csproj": {
+    "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.Shared\\FONAssistant.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.Shared\\IMPOLAssistant.Shared.csproj",
-        "projectName": "IMPOLAssistant.Shared",
-        "projectPath": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.Shared\\IMPOLAssistant.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.Shared\\FONAssistant.Shared.csproj",
+        "projectName": "FONAssistant.Shared",
+        "projectPath": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.Shared\\FONAssistant.Shared.csproj",
         "packagesPath": "C:\\Users\\Hrckok\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.Shared\\obj\\",
         "projectStyle": "PackageReference",
@@ -90,8 +90,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.Shared\\IMPOLAssistant.Shared.csproj": {
-                "projectPath": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.Shared\\IMPOLAssistant.Shared.csproj"
+              "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.Shared\\FONAssistant.Shared.csproj": {
+                "projectPath": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.Shared\\FONAssistant.Shared.csproj"
               }
             }
           }
@@ -111,6 +111,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[8.0.7, )"
@@ -135,6 +143,10 @@
             "MudBlazor": {
               "target": "Package",
               "version": "[7.6.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             }
           },
           "imports": [

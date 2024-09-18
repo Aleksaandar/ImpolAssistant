@@ -5513,9 +5513,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.KernelMemory.Tests\\IMPOLAssistant.KernelMemory.Tests.csproj",
-      "projectName": "IMPOLAssistant.KernelMemory.Tests",
-      "projectPath": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.KernelMemory.Tests\\IMPOLAssistant.KernelMemory.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.KernelMemory.Tests\\FONAssistant.KernelMemory.Tests.csproj",
+      "projectName": "FONAssistant.KernelMemory.Tests",
+      "projectPath": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.KernelMemory.Tests\\FONAssistant.KernelMemory.Tests.csproj",
       "packagesPath": "C:\\Users\\Hrckok\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.KernelMemory.Tests\\obj\\",
       "projectStyle": "PackageReference",

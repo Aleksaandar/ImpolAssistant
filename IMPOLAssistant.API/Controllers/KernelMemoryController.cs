@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.KernelMemory.DataFormats.Office;
 using Microsoft.KernelMemory.DataFormats.Pdf;
+using StackExchange.Redis;
 
 namespace IMPOLAssistant.API.Controllers
 {
@@ -16,33 +17,57 @@ namespace IMPOLAssistant.API.Controllers
             _kernelMemoryService = kernelMemoryService;
         }
 
-        [HttpPost("import-document")]
-        public async Task<IActionResult> ImportDocument([FromForm] string filePath, [FromForm] string documentId)
+      [HttpPost("import-document")]
+public async Task<IActionResult> ImportDocument([FromForm] IFormFile file, [FromForm] string documentId, [FromForm] string index)
+{
+    if (file == null || file.Length == 0)
+    {
+        return BadRequest("A valid file must be provided.");
+    }
+
+    if (string.IsNullOrEmpty(documentId))
+    {
+        return BadRequest("Document ID must be provided.");
+    }
+            if (string.IsNullOrEmpty(index))
+            {
+                return BadRequest("Index must be provided.");
+            }
+
+    try
+    {
+      
+        var filePath = Path.Combine(Path.GetTempPath(),  Path.GetExtension(file.FileName));
+
+      
+        using (var fileStream = new FileStream(filePath, FileMode.Create))
         {
-            if (string.IsNullOrEmpty(filePath) || !System.IO.File.Exists(filePath))
-            {
-                return BadRequest("Valid  file path must be provided.");
-            }
-
-            if (string.IsNullOrEmpty(documentId))
-            {
-                return BadRequest("Document ID must be provided.");
-            }
-
-            await _kernelMemoryService.ImportDocumentAsync(filePath, documentId);
-
-            return Ok(" document imported successfully.");
+            await file.CopyToAsync(fileStream);
         }
 
+        
+        await _kernelMemoryService.ImportDocumentAsync(filePath, documentId,index);
+
+     
+        System.IO.File.Delete(filePath);
+
+        return Ok("Document imported successfully.");
+    }
+    catch (Exception ex)
+    {
+        return StatusCode(500, $"Internal server error: {ex.Message}");
+    }
+}
+
         [HttpPost("import-webpage")]
-        public async Task<IActionResult> ImportWebPage([FromBody] ImportWebPageRequest request)
+        public async Task<IActionResult> ImportWebPage([FromBody] ImportWebPageRequest request, string index)
         {
             if (string.IsNullOrEmpty(request.Url) || string.IsNullOrEmpty(request.DocId))
             {
                 return BadRequest("URL and DocId must be provided.");
             }
 
-            await _kernelMemoryService.ImportWebPageAsync(request.Url, request.DocId);
+            await _kernelMemoryService.ImportWebPageAsync(request.Url, request.DocId,index);
             return Ok("Web page imported successfully.");
         }
         [HttpPost("importExcel")]
@@ -73,14 +98,25 @@ namespace IMPOLAssistant.API.Controllers
 
 
         [HttpPost("ask")]
-        public async Task<IActionResult> Ask([FromBody] AskRequest request)
+        public async Task<IActionResult> Ask([FromBody] AskRequest request,  string index)
         {
             if (string.IsNullOrEmpty(request.Question))
             {
                 return BadRequest("Question must be provided.");
             }
 
-            var result = await _kernelMemoryService.AskAsync(request.Question);
+            var result = await _kernelMemoryService.AskAsync(request.Question, index);
+            return Ok(result);
+        }
+        [HttpPost("search")]
+        public async Task<IActionResult> Search([FromBody] AskRequest request)
+        {
+            if (string.IsNullOrEmpty(request.Question))
+            {
+                return BadRequest("Question must be provided.");
+            }
+
+            var result = await _kernelMemoryService.SearchAsync(request.Question);
             return Ok(result);
         }
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ItpNUkjlRAw=",
+  "dgSpecHash": "+FdFls7JrIk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.SemanticKernel\\IMPOLAssistant.SemanticKernel.csproj",
+  "projectFilePath": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.SemanticKernel\\FONAssistant.SemanticKernel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hrckok\\.nuget\\packages\\azure.ai.openai\\1.0.0-beta.17\\azure.ai.openai.1.0.0-beta.17.nupkg.sha512",
     "C:\\Users\\Hrckok\\.nuget\\packages\\azure.core\\1.39.0\\azure.core.1.39.0.nupkg.sha512",

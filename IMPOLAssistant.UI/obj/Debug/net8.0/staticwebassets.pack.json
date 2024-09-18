@@ -9,8 +9,8 @@
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.UI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\IMPOLAssistant.UI.styles.css",
-      "PackagePath": "staticwebassets\\IMPOLAssistant.UI.styles.css"
+      "Id": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.UI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FONAssistant.UI.styles.css",
+      "PackagePath": "staticwebassets\\FONAssistant.UI.styles.css"
     },
     {
       "Id": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.UI\\wwwroot\\css\\app.css",
@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
+      "Id": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.UI\\wwwroot\\images\\fon logo.png",
+      "PackagePath": "staticwebassets\\images\\fon logo.png"
+    },
+    {
       "Id": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.UI\\wwwroot\\images\\impol-seval.jpg",
       "PackagePath": "staticwebassets\\images\\impol-seval.jpg"
     },
@@ -45,20 +49,20 @@
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.IMPOLAssistant.UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FONAssistant.UI.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.IMPOLAssistant.UI.props",
-      "PackagePath": "build\\IMPOLAssistant.UI.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FONAssistant.UI.props",
+      "PackagePath": "build\\FONAssistant.UI.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.IMPOLAssistant.UI.props",
-      "PackagePath": "buildMultiTargeting\\IMPOLAssistant.UI.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FONAssistant.UI.props",
+      "PackagePath": "buildMultiTargeting\\FONAssistant.UI.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.IMPOLAssistant.UI.props",
-      "PackagePath": "buildTransitive\\IMPOLAssistant.UI.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FONAssistant.UI.props",
+      "PackagePath": "buildTransitive\\FONAssistant.UI.props"
     }
   ],
   "ElementsToRemove": []

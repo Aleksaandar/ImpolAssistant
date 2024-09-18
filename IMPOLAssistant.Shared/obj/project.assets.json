@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.Shared\\IMPOLAssistant.Shared.csproj",
-      "projectName": "IMPOLAssistant.Shared",
-      "projectPath": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.Shared\\IMPOLAssistant.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.Shared\\FONAssistant.Shared.csproj",
+      "projectName": "FONAssistant.Shared",
+      "projectPath": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.Shared\\FONAssistant.Shared.csproj",
       "packagesPath": "C:\\Users\\Hrckok\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.Shared\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cXsB1Ru1lZI=",
+  "dgSpecHash": "s3sj0YJHQjg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.KernelMemory\\IMPOLAssistant.KernelMemory.csproj",
+  "projectFilePath": "C:\\Users\\Hrckok\\source\\repos\\IMPOLAssistant\\ImpolAssistant\\IMPOLAssistant.KernelMemory\\FONAssistant.KernelMemory.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hrckok\\.nuget\\packages\\awssdk.core\\3.7.304.27\\awssdk.core.3.7.304.27.nupkg.sha512",
     "C:\\Users\\Hrckok\\.nuget\\packages\\awssdk.s3\\3.7.310.4\\awssdk.s3.3.7.310.4.nupkg.sha512",

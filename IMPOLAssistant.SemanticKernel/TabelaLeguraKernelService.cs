@@ -94,19 +94,16 @@ namespace IMPOLAssistant.SemanticKernel
         private string ExecuteQuery(string sqlQuery)
         {
 
-            // Define the connection string to the SQLite database
             string connectionString = "Data Source=podaci.db";
             StringBuilder result = new StringBuilder();
-            // Create a connection to the SQLite database
+
             using (var connection = new SqliteConnection(connectionString))
             {
                 connection.Open();
 
-                // Create a command to query data from the table
                 var selectCmd = connection.CreateCommand();
                 selectCmd.CommandText = sqlQuery;
 
-                // Execute the query and read the results dynamically
                 var rows = new List<Dictionary<string, string>>();
 
                 using (var reader = selectCmd.ExecuteReader())
@@ -117,18 +114,16 @@ namespace IMPOLAssistant.SemanticKernel
 
                         for (int i = 0; i < reader.FieldCount; i++)
                         {
-                            // Get the column name and value, add them to the dictionary
+
                             string columnName = reader.GetName(i);
                             string columnValue = reader[i].ToString();
                             row.Add(columnName, columnValue);
                         }
 
-                        // Add the row dictionary to the list of rows
                         rows.Add(row);
                     }
                 }
 
-                // Serialize the list of rows to JSON
                 return JsonSerializer.Serialize(rows, new JsonSerializerOptions { WriteIndented = true });
 
             }

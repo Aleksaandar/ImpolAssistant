@@ -13,20 +13,38 @@ namespace IMPOLAssistant.KernelMemory
             _kernelMemory = kernelMemory;
         }
 
-        public Task ImportDocumentAsync(string filePath, string documentId)
+        public Task ImportDocumentAsync(string filePath, string documentId, string index)
         {
-            return _kernelMemory.ImportDocumentAsync(filePath, documentId);
+            return _kernelMemory.ImportDocumentAsync(filePath, documentId, index: index);
         }
 
-        public Task ImportWebPageAsync(string url, string docId)
+        public Task ImportWebPageAsync(string url, string docId, string index)
         {
-            return _kernelMemory.ImportWebPageAsync(url, docId);
+            return _kernelMemory.ImportWebPageAsync(url, docId,index:index);
         }
 
-        public async Task<string> AskAsync(string question)
+        public async Task<string> AskAsync(string question,string index)
         {
-            var result = await _kernelMemory.AskAsync(question);
+            var result = await _kernelMemory.AskAsync(question,index:index);
+            
             return result.Result;
+        }
+        public async Task<string> SearchAsync(string question)
+        {
+            var result = await _kernelMemory.SearchAsync(question);
+
+          
+            if (result.Results == null || !result.Results.Any())
+            {
+                return "No results found.";
+            }
+
+           
+            var resultStrings = result.Results.Select(citation =>
+                $"Source name: {citation.SourceName}, SourceUrl: {citation.SourceUrl}"); 
+            var resultString = string.Join("\n", resultStrings);
+
+            return resultString;
         }
         public async Task ImportExcelAsync(string filePath, string docId)
         {
